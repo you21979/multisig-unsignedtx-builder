@@ -7,6 +7,9 @@
     "multisig-wallet": "you21979/node-multisig-wallet",
     "bitcoin-util-fee": "*",
     "commander": "2.11.*",
+    "request-promise": "",
+    "request": "",
+    "promise-util-task": "",
     "bitcoinjs-lib": "3.1.*"
   },
   "scripts": {
