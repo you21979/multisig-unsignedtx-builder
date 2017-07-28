@@ -10,6 +10,7 @@
     "request-promise": "",
     "request": "",
     "promise-util-task": "",
+    "@you21979/promise-sleep": "",
     "bitcoinjs-lib": "3.1.*"
   },
   "scripts": {
