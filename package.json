@@ -1,0 +1,17 @@
+{
+  "name": "multisig-unsignedtx-builder",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "multisig-wallet": "you21979/node-multisig-wallet",
+    "bitcoin-util-fee": "*",
+    "commander": "2.11.*",
+    "bitcoinjs-lib": "3.1.*"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Yuki Akiyama",
+  "license": "Apache-2.0"
+}

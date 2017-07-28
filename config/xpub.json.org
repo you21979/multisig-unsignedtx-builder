@@ -1,0 +1,10 @@
+{
+  "keys": [{
+    "neededSignatures": 2,
+    "masterPubkeys": [
+      "xpub1",
+      "xpub2",
+      "xpub3"
+    ]
+  }]
+}
