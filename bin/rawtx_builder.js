@@ -10,6 +10,7 @@ program
   .option('-a, --address <n>', 'spent address')
   .option('-s, --spb <n>', 'transaction fees. satoshi per byte', (v) => parseInt(v), constant.SPB)
   .option('-d, --divide <n>', 'transaction divide unit', (v) => parseInt(v), constant.DIVIDE_UNIT)
+  .option('-n, --network <n>', 'coin network[BTC,LTC,MONA]', (v) => (v), constant.COIN)
   .parse(process.argv);
 
 const getopt = (program) => {
@@ -24,6 +25,7 @@ const getopt = (program) => {
         spentaddress : program.address,
         spb : program.spb,
         divide_unit : program.divide,
+        coin : program.network,
     }
 }
 

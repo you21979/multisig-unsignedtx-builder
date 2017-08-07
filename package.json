@@ -1,17 +1,18 @@
 {
   "name": "multisig-unsignedtx-builder",
   "version": "1.0.0",
-  "description": "",
+  "description": "multisig transaction output from utxo list",
   "main": "index.js",
   "dependencies": {
     "multisig-wallet": "you21979/node-multisig-wallet",
-    "bitcoin-util-fee": "*",
+    "bitcoin-util-fee": "0.0.6",
     "commander": "2.11.*",
-    "request-promise": "",
-    "request": "",
-    "promise-util-task": "",
-    "@you21979/promise-sleep": "",
-    "bitcoinjs-lib": "3.1.*"
+    "request-promise": "4.2.*",
+    "request": "2.81.*",
+    "promise-util-task": "0.0.3",
+    "@you21979/promise-sleep": "1.0.1",
+    "bitcoinjs-lib": "3.1.*",
+    "coininfo": "cryptocoinjs/coininfo"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"

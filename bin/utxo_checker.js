@@ -12,6 +12,9 @@ program
 
 const req = (tx, vout, wait) => {
     return rp("https://insight.bitpay.com/api/tx/"+tx).then(JSON.parse).then(res => {
+        if(res.vout[vout].spentTxId !== null){
+            console.log("check tx SPENT " + [tx, vout].join(":"))
+        }
         return sleep(wait, [tx, vout, res.vout[vout].spentTxId === null])
     })
 }
