@@ -69,6 +69,7 @@ npm i
     -a, --address <n>  spent address
     -s, --spb <n>      transaction fees. satoshi per byte
     -d, --divide <n>   transaction divide unit
+    -n, --network <n>  coin network[BTC,LTC,MONA]
     -h, --help         output usage information
 ```
 
